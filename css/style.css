@@ -1,0 +1,348 @@
+* {
+    margin: 0px;    
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+header#home {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/background.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+main #home2{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/background2.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+main #home4{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/background4.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+main #mygithub{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/background5.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    float: left;
+    width: auto;
+    height: auto;
+    margin-left: 16px;
+    margin-top: 10px;
+    border: transparent;
+}
+
+.main{
+    position: fixed;
+    float: right;
+    margin-left: 1400px;    
+}
+
+ul {        
+    
+    margin: 16px;
+    font-size: 20px; 
+    margin-top: 30px;   
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    text-decoration: none;
+    color: gold;
+    padding: 10px;
+    border: 1px transparent rebeccapurple;
+    transition: 0.4s ease;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: green;
+}
+
+.tittle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.tittle h1#judul{
+    color: gold;
+}
+
+.button1 button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+    color: gold;
+    text-decoration: none;
+    padding: 10px;    
+    transition: 0.6s ease; 
+    font-size: 20px;         
+}
+
+.button1 button:hover{
+    background-color: white;
+    color: green;
+}
+
+footer .About{       
+   position: absolute;
+   width: 99%;   
+   background-color: grey;   
+   text-align: center;
+   padding: 10px;
+}
+
+footer .About h1#About {
+    color: white;
+    font-size: 18px;    
+}
+
+main .flex-container{
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+main .flex-container .flex-item{    
+    background-color: burlywood;
+    padding: 100px;    
+    margin: 10px;
+    justify-content: center;
+    flex: 50%;    
+    font-size: 20px;
+    text-align: center;
+}
+
+main .flex-container01{
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+main .flex-container01 .flex-item01{    
+    background-color: burlywood;
+    padding: 10px;    
+    margin-top: 20px;
+    justify-content: center;
+    flex: 50%;    
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+main .flex-container2{
+    display: flex;
+    flex-direction: row;         
+     
+}
+
+main .flex-container2 .flex-item2{    
+    background-color: burlywood;
+    padding: 20px;    
+    margin: 10px;
+    justify-content: center;
+    flex: 50%;    
+    font-size: 20px;
+}
+
+main .flex-container3{
+    display: flex;
+    flex-direction: row;         
+     
+}
+
+main .flex-container3 .flex-item3{    
+    background-color: burlywood;
+    padding: 20px;    
+    margin: 10px;
+    justify-content: center;
+    flex: 50%;    
+    font-size: 20px;
+}
+
+main .flex-container4{
+    display: flex;
+    flex-direction: row;         
+     
+}
+
+
+
+main .flex-container4 .flex-item4{    
+    background-color: burlywood;
+    padding: 20px;    
+    margin: 10px;
+    justify-content: center;
+    flex: 50%;    
+    font-size: 20px;
+}
+
+main .flex-container5{
+    display: flex;
+    flex-direction: row;         
+     
+}
+
+main .flex-container5 .flex-item5{    
+    background-color: burlywood;
+    padding: 20px;    
+    margin: 10px;
+    justify-content: center;
+    flex: 50%;    
+    font-size: 20px;
+}
+
+
+main .flex-container6{
+    display: flex;
+    flex-direction: row;         
+     
+}
+
+main .flex-container6 .flex-item6{    
+    background-color: burlywood;
+    padding: 20px;    
+    margin: 10px;
+    justify-content: center;
+    flex: 50%;    
+    font-size: 20px;
+}
+
+main .flex-container7{
+    display: flex;
+    flex-direction: row;         
+     
+}
+
+main .flex-container7 .flex-item7{    
+    background-color: burlywood;
+    padding: 20px;    
+    margin: 10px;
+    justify-content: center;
+    flex: 50%;    
+    font-size: 20px;
+}
+
+main .flex-container8{
+    display: flex;
+    flex-direction: row;         
+     
+}
+
+main .flex-container8 .flex-item8{    
+    background-color: burlywood;
+    padding: 20px;    
+    margin: 10px;
+    justify-content: center;
+    flex: 50%;    
+    font-size: 20px;
+}
+
+main .flex-container9{
+    display: flex;
+    flex-direction: row;         
+     
+}
+
+main .flex-container9 .flex-item9{    
+    background-color: burlywood;
+    padding: 20px;    
+    margin: 10px;
+    justify-content: center;
+    flex: 50%;    
+    font-size: 20px;
+}
+
+main .flex-container10{
+    display: flex;
+    flex-direction: row;         
+     
+}
+
+main .flex-container10 .flex-item10{    
+    background-color: burlywood;
+    padding: 20px;    
+    margin: 10px;
+    justify-content: center;
+    flex: 50%;    
+    font-size: 20px;
+    margin-top: 300px;
+    border-radius:50px;	    
+}
+
+main .flex-container11{
+    display: flex;
+    flex-direction: row;         
+     
+}
+
+main .flex-container11 .flex-item11{    
+    background-color: burlywood;
+    padding: 20px;    
+    margin: 10px;
+    justify-content: center;
+    flex: 50%;    
+    font-size: 20px;
+    border-radius:50px;	
+    margin-top: 300px;
+}
+
+#return {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:burlywood;	
+    border-radius:50px;	
+    text-align: center;	    
+}
+
+#return a.float{    
+    color: black;
+    text-decoration: none;
+    font-size: 50px;    
+}
+
+#return:hover{    
+    background-color: #0C9;
+    color: black;
+}
+
+main #mygithub a.float img {     
+    margin-left: 900px;
+    margin-top: 200px;  
+}
+
+main #mygithub p {  
+    margin-top: 20px;  
+    text-align: center;
+    font-size: 30px;
+    color: darkorange;
+}
