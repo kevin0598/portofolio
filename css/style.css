@@ -20,16 +20,8 @@ main #home2{
     background-position: center;
 }
 
-ul {
-    list-style-type: none;
-  margin: 0;
-  padding: 10px;
-  overflow: hidden;
-  background-color: #333;
-}
-
 main #home4{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/background4.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/background41.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -60,7 +52,7 @@ main #mygithub{
 ul {        
     
     margin: 16px;
-    font-size: 20px; 
+    font-size: 25px; 
     margin-top: 30px;   
 }
 
@@ -70,7 +62,7 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: gold;
+    color:gold;
     padding: 10px;
     border: 1px transparent rebeccapurple;
     transition: 0.4s ease;
@@ -90,22 +82,32 @@ ul li a:hover {
 
 .tittle h1#judul{
     color: gold;
+    font-size: 40px;
+    text-align: center;
+    
 }
 
-.button1 button{
+.tittle p#isi{
+    color: gold;
+    font-size: 30px;
+    text-align: center;
+}
+
+header#home .button1 a#button1{
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color: black;
+    background-color: transparent;
     color: gold;
     text-decoration: none;
-    padding: 10px;    
+    border: ridge;
+    padding: 15px;    
     transition: 0.6s ease; 
     font-size: 20px;         
 }
 
-.button1 button:hover{
+header#home .button1 a#button1:hover{
     background-color: white;
     color: green;
 }
@@ -129,31 +131,36 @@ main .flex-container{
     
 }
 
-main .flex-container .flex-item{    
-    background-color: burlywood;
-    padding: 100px;    
+main .flex-container .flex-item{            
     margin: 10px;
     justify-content: center;
     flex: 50%;    
-    font-size: 20px;
+    font-size: 40px;
+    color: gold;    
     text-align: center;
+    font-weight: bold;
+    border-bottom: gold solid 2px;    
 }
 
-main .flex-container01{
-    display: flex;
-    flex-direction: column; 
-    
-}
-
-main .flex-container01 .flex-item01{    
-    background-color: burlywood;
-    padding: 10px;    
-    margin-top: 20px;
+main #home2 .flex-container00{
+    background-color: transparent;
+    padding: 10px;        
     justify-content: center;
     flex: 50%;    
     font-size: 20px;
+    text-align: center;    
+}
+
+main #home4 .flex-container01 .flex-item01{    
+    background-color:transparent;
+    padding: 10px;        
+    justify-content: center;
+    flex: 50%;  
+    color: gold;  
+    font-size: 40px;
     text-align: center;
-    border-radius: 50%;
+    border-radius: 50%;   
+     
 }
 
 main .flex-container2{
@@ -163,12 +170,15 @@ main .flex-container2{
 }
 
 main .flex-container2 .flex-item2{    
-    background-color: burlywood;
+    background-color:transparent;
     padding: 20px;    
-    margin: 10px;
-    justify-content: center;
+    margin: 20px;
+    justify-content: left;
+    text-align: left;
     flex: 50%;    
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: gold; 
 }
 
 main .flex-container3{
@@ -178,12 +188,15 @@ main .flex-container3{
 }
 
 main .flex-container3 .flex-item3{    
-    background-color: burlywood;
+    background-color: transparent;
     padding: 20px;    
-    margin: 10px;
-    justify-content: center;
+    margin: 20px;
+    justify-content: left;
+    text-align: left;
     flex: 50%;    
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: gold; 
 }
 
 main .flex-container4{
@@ -195,12 +208,15 @@ main .flex-container4{
 
 
 main .flex-container4 .flex-item4{    
-    background-color: burlywood;
+    background-color: transparent;
     padding: 20px;    
-    margin: 10px;
-    justify-content: center;
+    margin: 20px;
+    justify-content: left;
+    text-align: left;
     flex: 50%;    
-    font-size: 20px;
+    color: gold; 
+    font-size: 25px;
+    font-weight: bold;
 }
 
 main .flex-container5{
@@ -210,12 +226,15 @@ main .flex-container5{
 }
 
 main .flex-container5 .flex-item5{    
-    background-color: burlywood;
+    background-color:transparent;
     padding: 20px;    
-    margin: 10px;
-    justify-content: center;
+    margin: 20px;
+    justify-content: left;
+    text-align: left;
+    color: gold; 
     flex: 50%;    
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 
@@ -226,13 +245,17 @@ main .flex-container6{
 }
 
 main .flex-container6 .flex-item6{    
-    background-color: burlywood;
+    background-color: transparent;
     padding: 20px;    
-    margin: 10px;
-    justify-content: center;
+    margin: 20px;
+    color: gold; 
+    justify-content: left;
+    text-align: left;
     flex: 50%;    
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
 }
+
 
 main .flex-container7{
     display: flex;
@@ -241,12 +264,15 @@ main .flex-container7{
 }
 
 main .flex-container7 .flex-item7{    
-    background-color: burlywood;
+    background-color: transparent;
     padding: 20px;    
-    margin: 10px;
-    justify-content: center;
+    margin: 20px;
+    justify-content: left;
+    text-align: left;
     flex: 50%;    
-    font-size: 20px;
+    color: gold; 
+    font-size: 25px;
+    font-weight: bold;
 }
 
 main .flex-container8{
@@ -256,12 +282,15 @@ main .flex-container8{
 }
 
 main .flex-container8 .flex-item8{    
-    background-color: burlywood;
+    background-color: transparent;
     padding: 20px;    
-    margin: 10px;
-    justify-content: center;
+    margin: 20px;
+    justify-content: left;
+    text-align: left;
     flex: 50%;    
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: gold; 
 }
 
 main .flex-container9{
@@ -271,12 +300,16 @@ main .flex-container9{
 }
 
 main .flex-container9 .flex-item9{    
-    background-color: burlywood;
-    padding: 20px;    
-    margin: 10px;
-    justify-content: center;
+    background-color: transparent;
+    padding: 20px;            
+    justify-content: left;
+    text-align: left;
     flex: 50%;    
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: gold; 
+    margin:20px;
+
 }
 
 main .flex-container10{
@@ -286,14 +319,16 @@ main .flex-container10{
 }
 
 main .flex-container10 .flex-item10{    
-    background-color: burlywood;
+    background-color: transparent;
     padding: 20px;    
     margin: 10px;
     justify-content: center;
     flex: 50%;    
     font-size: 20px;
-    margin-top: 300px;
-    border-radius:50px;	    
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    color: gold;        
 }
 
 main .flex-container11{
@@ -303,14 +338,16 @@ main .flex-container11{
 }
 
 main .flex-container11 .flex-item11{    
-    background-color: burlywood;
+    background-color:transparent;
     padding: 20px;    
     margin: 10px;
     justify-content: center;
+    text-align: center;
+    align-items: center;
     flex: 50%;    
-    font-size: 20px;
-    border-radius:50px;	
-    margin-top: 300px;
+    font-size: 20px;    
+    color: gold;	
+    margin-top: 70px;
 }
 
 #return {
@@ -337,12 +374,36 @@ main .flex-container11 .flex-item11{
 
 main #mygithub a.float img {     
     margin-left: 900px;
-    margin-top: 200px;  
+    margin-top: 10px;  
+    margin-bottom: 20px;
 }
 
-main #mygithub p {  
-    margin-top: 20px;  
+main #mygithub p {        
     text-align: center;
     font-size: 30px;
     color: darkorange;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main .flex-container12{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main .flex-container12 .flex-item12{    
+    padding: 20px;    
+    margin: 20px;        
+    flex: 50%;    
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    align-items: center;    
+}
+
+main #mygithub .flex-container12 .flex-item12 p{
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
