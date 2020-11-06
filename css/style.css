@@ -659,11 +659,18 @@ main #mygithub .flex-container12 .flex-item12 p{
     
     img.newclass{      
          height: auto;
-         width: 150px;
+         width: 160px;
     }
+
+    img.newclass1{      
+        height: 150px;
+        width: 300px;
+   }
 
     h1.namasekolah{
         font-size: 15px;
+        text-align: center;
+        margin-top: 20px;
     }
 
     p.tahunsekolah{
@@ -743,11 +750,11 @@ main #mygithub .flex-container12 .flex-item12 p{
     .main{
         position: fixed;
         float: right;
-        margin-left: 250px;    
+        margin-left: 1300px;    
     }
 
     ul {        
-    
+        
         margin: 16px;
         font-size: 15px; 
         margin-top: 30px;   
@@ -765,10 +772,5 @@ main #mygithub .flex-container12 .flex-item12 p{
     img.web{
         width: 800px;
         height: 400px;
-    }
-
-    #return:hover{    
-        background-color: #0C9;
-        color: black;
     }
 }
