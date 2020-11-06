@@ -118,6 +118,7 @@ header#home .button1 a#button1{
     border: ridge;
     padding: 15px;    
     transition: 0.6s ease; 
+    border-radius: 50%;
     font-size: 20px;         
 }
 
@@ -717,7 +718,7 @@ main #mygithub .flex-container12 .flex-item12 p{
     }
 
     #button1{
-        margin-top:20px;
+        margin-top:20px;        
     }
 
     main .flex-container12{
