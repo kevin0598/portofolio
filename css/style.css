@@ -428,8 +428,7 @@ main #home5 .flex-container13{
 
 
 main .flex-container13 .flex-item13{    
-    padding: 20px;    
-    margin: 20px;        
+    padding: 20px;              
     flex: 50%;    
     font-size: 20px;
     font-weight: bold;
@@ -468,8 +467,7 @@ main #home6 .flex-container14{
 }
 
 main .flex-container14 .flex-item14{    
-    padding: 20px;    
-    margin: 20px;        
+    padding: 20px;            
     flex: 50%;    
     font-size: 20px;
     font-weight: bold;
