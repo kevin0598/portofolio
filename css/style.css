@@ -27,6 +27,20 @@ main #home4{
     background-position: center;
 }
 
+main #home5{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/background4.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+main #home6{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/background6.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
 main #mygithub{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/background5.jpg');
     height: 100vh;
@@ -46,7 +60,7 @@ main #mygithub{
 .main{
     position: fixed;
     float: right;
-    margin-left: 1400px;    
+    margin-left: 1200px;    
 }
 
 ul {        
@@ -65,7 +79,7 @@ ul li a {
     color:gold;
     padding: 10px;
     border: 1px transparent rebeccapurple;
-    transition: 0.4s ease;
+    transition: 0.6s ease;
 }
 
 ul li a:hover {
@@ -358,7 +372,8 @@ main .flex-container11 .flex-item11{
 	right:40px;
 	background-color:burlywood;	
     border-radius:50px;	
-    text-align: center;	    
+    text-align: center;	
+    transition: 0.6s ease;    
 }
 
 #return a.float{    
@@ -383,7 +398,7 @@ main #mygithub p {
     font-size: 30px;
     color: darkorange;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
 }
 
 main .flex-container12{
@@ -403,7 +418,357 @@ main .flex-container12 .flex-item12{
     align-items: center;    
 }
 
+main #home5 .flex-container13{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+main .flex-container13 .flex-item13{    
+    padding: 20px;    
+    margin: 20px;        
+    flex: 50%;    
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    align-items: center;  
+}
+
+main #home5 .flex-container16{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main #home5 .flex-container16 img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+main .flex-container16 .flex-item16{    
+    padding: 20px;    
+    margin: 20px;        
+    flex: 50%;    
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    align-items: center;  
+}
+
+main #home6 .flex-container14{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main .flex-container14 .flex-item14{    
+    padding: 20px;    
+    margin: 20px;        
+    flex: 50%;    
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    align-items: center;  
+}
+
+main .flex-container15 .flex-item15 p{
+    font-size: 30px;
+    text-align: center;    
+    color: gold;
+    margin-bottom: 30px;
+}
+
+main #home6 .flex-container14 .flex-item14 img{
+    max-width: 100%;
+    height: auto;  
+}
+
 main #mygithub .flex-container12 .flex-item12 p{
     margin-bottom: 30px;
     margin-top: 20px;
+}
+
+@media (max-width:800px){
+    main #home5 .flex-container13 .flex-item13 img{
+    max-width: 100%;
+    height: auto;  
+    }
+    main .flex-container2{
+        display: flex;
+        flex-direction: row;         
+         
+    }
+    
+    main .flex-container2 .flex-item2{    
+        background-color:transparent;
+        padding: 5px;   
+        justify-content: left;
+        text-align: left;
+        flex: 50%;    
+        font-size: 15px;
+        font-weight: bold;
+        color: gold; 
+    }
+    
+    main .flex-container3{
+        display: flex;
+        flex-direction: row;         
+         
+    }
+    
+    main .flex-container3 .flex-item3{    
+        background-color: transparent;
+        padding: 5px;    
+        justify-content: left;
+        text-align: left;
+        flex: 50%;    
+        font-size: 15px;
+        font-weight: bold;
+        color: gold; 
+    }
+    
+    main .flex-container4{
+        display: flex;
+        flex-direction: row;         
+         
+    }
+    
+    
+    
+    main .flex-container4 .flex-item4{    
+        background-color: transparent;
+        padding: 5px;    
+        justify-content: left;
+        text-align: left;
+        flex: 50%;    
+        color: gold; 
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    main .flex-container5{
+        display: flex;
+        flex-direction: row;         
+         
+    }
+    
+    main .flex-container5 .flex-item5{    
+        background-color:transparent;
+        padding: 5px;    
+        justify-content: left;
+        text-align: left;
+        color: gold; 
+        flex: 50%;    
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    
+    main .flex-container6{
+        display: flex;
+        flex-direction: row;         
+         
+    }
+    
+    main .flex-container6 .flex-item6{    
+        background-color: transparent;
+        padding: 5px;    
+        color: gold; 
+        justify-content: left;
+        text-align: left;
+        flex: 50%;    
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    
+    main .flex-container7{
+        display: flex;
+        flex-direction: row;         
+         
+    }
+    
+    main .flex-container7 .flex-item7{    
+        background-color: transparent;
+        padding: 5px;    
+        justify-content: left;
+        text-align: left;
+        flex: 50%;    
+        color: gold; 
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    main .flex-container8{
+        display: flex;
+        flex-direction: row;         
+         
+    }
+    
+    main .flex-container8 .flex-item8{    
+        background-color: transparent;
+        padding: 5px;       
+        justify-content: left;
+        text-align: left;
+        flex: 50%;    
+        font-size: 15px;
+        font-weight: bold;
+        color: gold; 
+    }
+    
+    main .flex-container9{
+        display: flex;
+        flex-direction: row;         
+         
+    }
+    
+    main .flex-container9 .flex-item9{    
+        background-color: transparent;
+        padding: 5px;            
+        justify-content: left;
+        text-align: left;
+        flex: 50%;    
+        font-size: 15px;
+        font-weight: bold;
+        color: gold;         
+    
+    }
+
+    #return {
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:40px;
+        background-color:burlywood;	
+        border-radius:50px;	
+        text-align: center;	    
+    }
+
+    main .flex-container10{
+        display: flex;
+        flex-direction: row;         
+         
+    }
+    
+    img.newclass{      
+         height: auto;
+         width: 150px;
+    }
+
+    h1.namasekolah{
+        font-size: 15px;
+    }
+
+    p.tahunsekolah{
+        font-size: 15px;
+    }
+
+    main .flex-container10 .flex-item10{    
+        background-color: transparent;
+        padding: 5px;            
+        justify-content: center;
+        flex: 50%;    
+        font-size: 20px;
+        margin-top: 50px;
+        align-items: center;
+        text-align: center;
+        color: gold;        
+    }
+    
+    main .flex-container11{
+        display: flex;
+        flex-direction: row;         
+         
+    }
+    
+    img.android{
+        height: auto;
+        width: 200px;
+    }
+
+    img.web{
+        height: auto;
+        width: 200px;
+    }
+
+    main .flex-container11 .flex-item11{    
+        background-color:transparent;
+        padding: 5px;            
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        flex: 50%;    
+        font-size: 20px;    
+        color: gold;	        
+    }
+
+    #button1{
+        margin-top:20px;
+    }
+
+    main .flex-container12{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    main .flex-container12 .flex-item12{    
+        padding: 5px;                
+        flex: 50%;    
+        font-size: 20px;
+        font-weight: bold;
+        justify-content: center;
+        text-align: center;
+        align-items: center;    
+    }
+
+    main #mygithub a.float img {
+    margin-left: 280px;
+    margin-top: 10px;  
+    margin-bottom: 20px;
+    }
+
+    main #mygithub .flex-container12 .flex-item12 a img.profil{
+        height: auto;
+        width: 100px;
+    }
+
+    .main{
+        position: fixed;
+        float: right;
+        margin-left: 250px;    
+    }
+
+    ul {        
+    
+        margin: 16px;
+        font-size: 15px; 
+        margin-top: 30px;   
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    #home6 .flex-container14 .flex-item14 img.android{
+        width: 800px;
+        height: 400px;
+    }
+
+    img.web{
+        width: 800px;
+        height: 400px;
+    }
+
+    #return:hover{    
+        background-color: #0C9;
+        color: black;
+    }
 }
